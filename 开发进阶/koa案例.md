@@ -24,10 +24,10 @@
 
 ```shell
 // 在你自己的开发电脑而不是刚买的主机上操作
-git clone https://github.com/TencentCloudBase/wafer-template
+git clone https://github.com/TencentCloudBase/pai-template
 
 ## 进入 koa demo 目录
-cd wafer-template/koa
+cd pai-template/koa
 
 ## 安装依赖
 npm install
@@ -52,7 +52,7 @@ npm i -g @cloudbase/cli
 tcb login
 ```
 
-然后在 `wafer-template/koa` 目录下，新建 `tcb.json` 文件，将 `tcb.example.json` 的内容拷贝过来并保存。
+然后在 `pai-template/koa` 目录下，新建 `tcb.json` 文件，将 `tcb.example.json` 的内容拷贝过来并保存。
 
 ```js
 {
