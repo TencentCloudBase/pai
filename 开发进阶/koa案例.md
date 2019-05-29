@@ -9,7 +9,7 @@
 
 ## 获取机器的 IP 和密码
 
-购买主机后，到腾讯云 `云主机控制台` 获取机器的 IP 并且到 `消息中心` 获取主机的密码。
+购买实例后，到腾讯云 `云服务器控制台` 获取机器的 IP 并且到 `消息中心` 获取实例的密码。
 
 ![消息中心](https://main.qcloudimg.com/raw/bbcd54b3d0501881b37cd3ffa62121e6.png)
 
@@ -23,7 +23,7 @@
 ## 初始化项目
 
 ```shell
-// 在你自己的开发电脑而不是刚买的主机上操作
+// 在你自己的开发电脑而不是刚买的 PAI 实例上操作
 git clone https://github.com/TencentCloudBase/pai-template
 
 ## 进入 koa demo 目录
@@ -48,7 +48,7 @@ npm start
 ## 安装命令行工具
 npm i -g @cloudbase/cli
 
-## 登陆并填入腾讯云云主机 IP， SSH 登陆密码，secretId 和 secretKey
+## 登陆并填入腾讯云云服务器 IP， SSH 登陆密码，secretId 和 secretKey
 tcb login
 ```
 
