@@ -41,11 +41,11 @@ npm start
 
 ## 部署
 
-安装 [@cloudbase/cli](https://github.com/TencentCloudBase/cloud-base-cli)。
+安装 [@cloudbase/cli@0.0.7-3](https://github.com/TencentCloudBase/cloud-base-cli)。
 
 ```shell
 ## 安装命令行工具
-npm i -g @cloudbase/cli
+npm i -g @cloudbase/cli@0.0.7-3
 
 ## 登陆并填入腾讯云云服务器 IP， SSH 登陆密码，secretId 和 secretKey
 tcb login
